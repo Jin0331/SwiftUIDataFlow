@@ -15,38 +15,35 @@ struct ContentView: View {
     ]
     var body: some View {
         
-        ZStack {
+        NavigationView {
             
-            NavigationView {
+            List {
                 
-                List {
+                ForEach(0..<sectionTitle.count, id: \.self) { sectionIndex in
                     
-                    ForEach(0..<sectionTitle.count, id: \.self) { sectionIndex in
-                        
-                        Section(header: SectionTitle(title: sectionTitle[sectionIndex])) {
-                            ScrollView(.horizontal) {
-                                LazyHStack {
-                                    ForEach(0..<randomImages.count, id: \.self) { index in
-                                        NavigationLink {
-                                            ReceiveView(url: randomImages[index].url, title: $sectionTitle[sectionIndex])
-                                            
-                                        } label: {
-                                            randomImages[index]
-                                        }
+                    Section(header: SectionTitle(title: sectionTitle[sectionIndex])) {
+                        ScrollView(.horizontal) {
+                            LazyHStack {
+                                ForEach(0..<randomImages.count, id: \.self) { index in
+                                    NavigationLink {
+                                        ReceiveView(url: randomImages[index].url, title: $sectionTitle[sectionIndex])
+                                        
+                                    } label: {
+                                        randomImages[index]
                                     }
                                 }
                             }
                         }
-                        
                     }
-                    .navigationTitle("hi")
                     
                 }
+                .navigationTitle("My Random Image")
+                
             }
         }
     }
     
 }
-    #Preview {
-        ContentView()
-    }
+#Preview {
+    ContentView()
+}

@@ -15,6 +15,7 @@
 		DB204DDC2BD50131006340BE /* RandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DDB2BD50131006340BE /* RandomImageView.swift */; };
 		DB204DDE2BD50AFF006340BE /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DDD2BD50AFF006340BE /* ReceiveView.swift */; };
 		DB204DE02BD552AC006340BE /* SectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DDF2BD552AC006340BE /* SectionTitle.swift */; };
+		DB204DE22BD5597A006340BE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DE12BD5597A006340BE /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DB204DDB2BD50131006340BE /* RandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageView.swift; sourceTree = "<group>"; };
 		DB204DDD2BD50AFF006340BE /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
 		DB204DDF2BD552AC006340BE /* SectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitle.swift; sourceTree = "<group>"; };
+		DB204DE12BD5597A006340BE /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				DB204DDB2BD50131006340BE /* RandomImageView.swift */,
 				DB204DDD2BD50AFF006340BE /* ReceiveView.swift */,
 				DB204DDF2BD552AC006340BE /* SectionTitle.swift */,
+				DB204DE12BD5597A006340BE /* SearchView.swift */,
 			);
 			path = SwiftUIDataFlow;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				DB204DCE2BD4FD47006340BE /* ContentView.swift in Sources */,
 				DB204DDA2BD4FE62006340BE /* DetailView.swift in Sources */,
 				DB204DE02BD552AC006340BE /* SectionTitle.swift in Sources */,
+				DB204DE22BD5597A006340BE /* SearchView.swift in Sources */,
 				DB204DDE2BD50AFF006340BE /* ReceiveView.swift in Sources */,
 				DB204DCC2BD4FD47006340BE /* SwiftUIDataFlowApp.swift in Sources */,
 				DB204DDC2BD50131006340BE /* RandomImageView.swift in Sources */,
