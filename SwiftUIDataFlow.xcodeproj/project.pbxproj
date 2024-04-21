@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB204DCC2BD4FD47006340BE /* SwiftUIDataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DCB2BD4FD47006340BE /* SwiftUIDataFlowApp.swift */; };
-		DB204DCE2BD4FD47006340BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DCD2BD4FD47006340BE /* ContentView.swift */; };
+		DB204DCE2BD4FD47006340BE /* NetfilxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DCD2BD4FD47006340BE /* NetfilxView.swift */; };
 		DB204DD02BD4FD49006340BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB204DCF2BD4FD49006340BE /* Assets.xcassets */; };
 		DB204DD32BD4FD49006340BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB204DD22BD4FD49006340BE /* Preview Assets.xcassets */; };
 		DB204DDA2BD4FE62006340BE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DD92BD4FE62006340BE /* DetailView.swift */; };
@@ -16,12 +16,13 @@
 		DB204DDE2BD50AFF006340BE /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DDD2BD50AFF006340BE /* ReceiveView.swift */; };
 		DB204DE02BD552AC006340BE /* SectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DDF2BD552AC006340BE /* SectionTitle.swift */; };
 		DB204DE22BD5597A006340BE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DE12BD5597A006340BE /* SearchView.swift */; };
+		DB204DE42BD55BFC006340BE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB204DE32BD55BFC006340BE /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB204DC82BD4FD47006340BE /* SwiftUIDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB204DCB2BD4FD47006340BE /* SwiftUIDataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDataFlowApp.swift; sourceTree = "<group>"; };
-		DB204DCD2BD4FD47006340BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB204DCD2BD4FD47006340BE /* NetfilxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxView.swift; sourceTree = "<group>"; };
 		DB204DCF2BD4FD49006340BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB204DD22BD4FD49006340BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB204DD92BD4FE62006340BE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		DB204DDD2BD50AFF006340BE /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
 		DB204DDF2BD552AC006340BE /* SectionTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitle.swift; sourceTree = "<group>"; };
 		DB204DE12BD5597A006340BE /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		DB204DE32BD55BFC006340BE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,14 +64,15 @@
 			isa = PBXGroup;
 			children = (
 				DB204DCB2BD4FD47006340BE /* SwiftUIDataFlowApp.swift */,
-				DB204DCD2BD4FD47006340BE /* ContentView.swift */,
+				DB204DE32BD55BFC006340BE /* MainView.swift */,
+				DB204DCD2BD4FD47006340BE /* NetfilxView.swift */,
+				DB204DE12BD5597A006340BE /* SearchView.swift */,
 				DB204DCF2BD4FD49006340BE /* Assets.xcassets */,
 				DB204DD12BD4FD49006340BE /* Preview Content */,
 				DB204DD92BD4FE62006340BE /* DetailView.swift */,
 				DB204DDB2BD50131006340BE /* RandomImageView.swift */,
 				DB204DDD2BD50AFF006340BE /* ReceiveView.swift */,
 				DB204DDF2BD552AC006340BE /* SectionTitle.swift */,
-				DB204DE12BD5597A006340BE /* SearchView.swift */,
 			);
 			path = SwiftUIDataFlow;
 			sourceTree = "<group>";
@@ -152,7 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB204DCE2BD4FD47006340BE /* ContentView.swift in Sources */,
+				DB204DCE2BD4FD47006340BE /* NetfilxView.swift in Sources */,
+				DB204DE42BD55BFC006340BE /* MainView.swift in Sources */,
 				DB204DDA2BD4FE62006340BE /* DetailView.swift in Sources */,
 				DB204DE02BD552AC006340BE /* SectionTitle.swift in Sources */,
 				DB204DE22BD5597A006340BE /* SearchView.swift in Sources */,

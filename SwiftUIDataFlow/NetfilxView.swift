@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  NetfilxView.swift
 //  SwiftUIDataFlow
 //
 //  Created by JinwooLee on 4/21/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct NetfilxView: View {
     
     @State var sectionTitle = ["1번째 section", "2번째 section", "3번째 section", "4번째 section"]
     @State var randomImages = [
@@ -45,5 +45,5 @@ struct ContentView: View {
     
 }
 #Preview {
-    ContentView()
+    NetfilxView()
 }
